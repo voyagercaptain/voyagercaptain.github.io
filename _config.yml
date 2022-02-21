@@ -3,7 +3,7 @@ description: 보이저소프트 기술블로그 입니다.
 author: voyager_captain
 avatar: /logo2.png
 email: voyagersoft2022@gmail.com
-url: https://github.com/voyagercaptain/voyagersoft.github.io
+url: https://voyagercaptain.github.io
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
@@ -38,6 +38,6 @@ social:
   links:
     - https://twitter.com/ngzhio
     - https://www.facebook.com/ngzhio
-    - https://github.com/ngzhio
+    - https://github.com/voyagercaptain
 google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
 lang: en
