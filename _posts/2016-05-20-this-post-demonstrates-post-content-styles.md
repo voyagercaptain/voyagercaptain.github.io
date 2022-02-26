@@ -2,7 +2,7 @@
 layout: post
 toc: true
 title: "This post demonstrates post content styles"
-categories: junk
+blogs: junk
 tags: [markdown, css, html]
 author:
   - Bart Simpson

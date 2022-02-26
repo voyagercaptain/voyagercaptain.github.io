@@ -35,15 +35,15 @@ layout: default
   </div>
 
   <footer class="post-footer">
-    {% if page.categories.size > 0 %}
+    {% if page.blogs.size > 0 %}
       <div class="post-meta">
         <i class="fas fa-folder"></i>
-        <ul class="post-taxonomies post-categories">
-          {% assign categories = page.categories | sort %}
-          {% for category in categories %}
-            <li class="post-category">
-              {% assign slugified_category = category | slugify %}
-              <a href="{{ '/categories/#:category' | replace: ':category', slugified_category | relative_url }}">{{ category }}</a>
+        <ul class="post-taxonomies post-blogs">
+          {% assign blogs = page.blogs | sort %}
+          {% for blog in blogs %}
+            <li class="post-blogs">
+              {% assign slugified_blog = blog | slugify %}
+              <a href="{{ '/blogs/#:blog' | replace: ':blog', slugified_blog | relative_url }}">{{ blog }}</a>
             </li>
           {% endfor %}
         </ul>

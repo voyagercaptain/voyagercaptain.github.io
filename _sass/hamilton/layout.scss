@@ -457,6 +457,12 @@ ul.post-categories {
   }
 }
 
+ul.post-blogs {
+  li {
+    text-decoration: underline;
+  }
+}
+
 .post-pagination {
   @include relative-font-size(0.8);
   clear: both;
